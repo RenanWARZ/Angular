@@ -1,0 +1,55 @@
+.beach{
+  color: rgba(255, 166, 0, 0.795);
+}
+
+.titulo{
+  font-size: xx-large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding: 50px 50px 2px;
+}
+
+.sub-titulo{
+    font-size: large;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+
+    .cards-container {
+      width: 80%;
+      margin: 60px auto;
+
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+
+      flex-wrap: wrap;
+    }
+
+    .card-info {
+      flex: 1;
+      min-width: 250px;
+      max-width: 320px;
+      background: rgb(176, 213, 255);
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      transition: 0.4s ease;
+    }
+
+    .card-info:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    }
+
+    .card-info mat-icon{
+
+    }
+
+     button[mat-button].comecar{
+      background-color: orange;
+      color: white;
+      font-size: large;
+     }

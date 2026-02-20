@@ -1,0 +1,45 @@
+mat-toolbar {
+  background-color: #e2f1ff;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+mat-icon{
+  color: rgb(255, 255, 255);
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.nome{
+      background: linear-gradient(#ff7b00, #00aeff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      color: transparent;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+#logo{
+ width: 4%;
+ height: 82%;
+ padding: 8px;
+}
+
+button[mat-button].login, button[mat-button].registrar {
+  background: linear-gradient(to right, #ff7b00af, #00aeff94);
+  color: white;
+  border-radius: 25px;
+  padding: 8px 30px;
+  margin-right: 15px;
+}
+
+button[mat-button].camp, button[mat-button].quadras, button[mat-button].alu{
+    background: linear-gradient(to right, #ff7b00af, #00aeff94);
+      color: white;
+      border-radius: 25px;
+      padding: 8px 30px;
+      margin-right: 15px;
+}
+
