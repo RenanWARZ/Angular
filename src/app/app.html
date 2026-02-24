@@ -1,7 +1,6 @@
 <app-navbar></app-navbar>
 
 <div class="card-hero">
-
   <div class="card-conteudo">
     <div class="titulo">
       <h1>Sua paixão por</h1>
@@ -11,25 +10,42 @@
 
     <div class="sub-titulo">
       <p>
-        Organize campeonatos, acompanhe rankings, desafie adversários e conecte jogadores em um só lugar. <br>
+        Organize campeonatos, acompanhe rankings, desafie adversários e conecte jogadores em um só
+        lugar. <br />
         Mais que um app — é a sua comunidade dentro e fora da areia.
       </p>
     </div>
   </div>
 
-  <button mat-button class="comecar">Começar Agora</button>
+  <div class="comecar">
+    <button mat-button class="comecar">Começar Agora</button>
+  </div>
+
+  <div class="card-footer">
+    <div class="footer-item">
+      <h2>12+</h2>
+      <span>Quadras</span>
+    </div>
+    <div class="footer-item">
+      <h2>350+</h2>
+      <span>Jogadores</span>
+    </div>
+    <div class="footer-item">
+      <h2>45+</h2>
+      <span>Clientes</span>
+    </div>
+  </div>
 </div>
 
-
 <div class="cards-container">
-
   <div class="card-info">
-    <mat-icon></mat-icon>
+    <mat-icon>event</mat-icon>
     <h3>Campeonatos</h3>
     <p>Organize e participe de torneios de Beach Tennis com facilidade.</p>
   </div>
 
   <div class="card-info">
+    <mat-icon>leaderboard</mat-icon>
     <h3>Rankings</h3>
     <p>Acompanhe sua evolução e suba no ranking da sua região.</p>
   </div>
@@ -41,5 +57,126 @@
   </div>
 </div>
 
+<section class="planos">
+  <h2 class="titulo-planos">Escolha Seu Plano</h2>
 
+  <div class="planos-container">
+    <!-- PLANO BASIC -->
+    <div class="plano-card">
+      <h3>Basic</h3>
+      <p class="preco">R$ 0<span>/mês</span></p>
 
+      <ul>
+        <li>✔ Participar de campeonatos</li>
+        <li>✔ Acesso ao ranking</li>
+        <li>✔ Criar perfil</li>
+        <li>✖ Reserva prioritária</li>
+        <li>✖ Estatísticas avançadas</li>
+      </ul>
+
+      <button mat-button class="btn-plano">Começar</button>
+    </div>
+
+    <!-- PLANO PLATINUM -->
+    <div class="plano-card destaque">
+      <h3>Platinum</h3>
+      <p class="preco">R$ 39<span>/mês</span></p>
+
+      <ul>
+        <li>✔ Tudo do Basic</li>
+        <li>✔ Reserva de quadras</li>
+        <li>✔ Estatísticas detalhadas</li>
+        <li>✔ Histórico de partidas</li>
+        <li>✖ Suporte VIP</li>
+      </ul>
+
+      <button mat-button class="btn-plano">Assinar</button>
+    </div>
+
+    <!-- PLANO GOLD -->
+    <div class="plano-card gold">
+      <h3>Gold</h3>
+      <p class="preco">R$ 79<span>/mês</span></p>
+
+      <ul>
+        <li>✔ Tudo do Platinum</li>
+        <li>✔ Suporte VIP</li>
+        <li>✔ Destaque no ranking</li>
+        <li>✔ Acesso antecipado a torneios</li>
+        <li>✔ Benefícios exclusivos</li>
+      </ul>
+
+      <button mat-button class="btn-plano">Ser Gold</button>
+    </div>
+  </div>
+</section>
+
+<section class="sobre-section">
+  <div class="sobre-container">
+    <div class="sobre-imagem">
+      <img src="/logo/logo2.png" alt="Logo" id="logo" />
+    </div>
+
+    <div class="sobre-texto">
+      <h2>Transformando o Beach Tennis com Tecnologia</h2>
+
+      <p class="descricao-principal">
+        O Beach Tennis App nasceu com o propósito de modernizar e fortalecer a comunidade esportiva,
+        conectando jogadores, organizadores e quadras em uma única plataforma inteligente.
+      </p>
+
+      <p>
+        Mais do que um sistema de campeonatos, somos um ecossistema digital criado para impulsionar
+        a competitividade, promover eventos e facilitar a gestão esportiva.
+      </p>
+
+      <div class="sobre-blocos">
+        <div class="bloco">
+          <h4>Missão</h4>
+          <p>Conectar pessoas através do esporte e da inovação.</p>
+        </div>
+
+        <div class="bloco">
+          <h4>Visão</h4>
+          <p>Ser referência digital no Beach Tennis regional.</p>
+        </div>
+
+        <div class="bloco">
+          <h4>Diferencial</h4>
+          <p>Gestão completa, rankings inteligentes e experiência moderna.</p>
+        </div>
+      </div>
+
+      <div class="sobre-numeros">
+        <div>
+          <strong>+350</strong>
+          <span>Jogadores Ativos</span>
+        </div>
+
+        <div>
+          <strong>12</strong>
+          <span>Quadras Parceiras</span>
+        </div>
+
+        <div>
+          <strong>+40</strong>
+          <span>Eventos Realizados</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<h2 id="h2">Nossa Localização</h2>
+
+<section class="localizacao-section">
+  <div class="mapa-wrapper">
+    <iframe src="https://www.google.com/maps?q=Av.%20Guedner%201610%20Maring%C3%A1%20PR%2087050-780&output=embed" loading="lazy"></iframe>
+  </div>
+</section>
+
+<br />
+
+<footer class="footer-final">
+  <p>© 2026 Beach Tennis App. Todos os direitos reservados.</p>
+</footer>
