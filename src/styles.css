@@ -4,14 +4,29 @@
   --primary-color: #e97c23;
 }
 
-.dark-mode {
-  --bg-color: #000000f0;
-  --text-color: #f1f5f9;
-  --primary-color: #e97c23;
+body {
+  background-image: url('/fundo/light.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: var(--text-color);
+  transition: 0.3s ease;
 }
 
-body {
-  background-color: var(--bg-color);
+.dark-mode {
+  --bg-color: #000000f0;
+  --text-color: #bfbfbf;
+  --primary-color: #e97c23;
+
+}
+
+body.dark-mode {
+  background-image: url('/fundo/dark.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   color: var(--text-color);
   transition: 0.3s ease;
 }

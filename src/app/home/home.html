@@ -51,7 +51,7 @@
   </div>
 
   <div class="card-info">
-    <mat-icon>splitscreen_portrait</mat-icon>
+    <mat-icon style="font-size: 27px;">border_all</mat-icon>
     <h3>Quadras</h3>
     <p>Encontre e reserve quadras próximas de você rapidamente.</p>
   </div>
@@ -61,24 +61,26 @@
   <h2 class="titulo-planos">Escolha Seu Plano</h2>
 
   <div class="planos-container">
-    <!-- PLANO BASIC -->
-    <div class="plano-card">
-      <h3>Basic</h3>
-      <p class="preco">R$ 0<span>/mês</span></p>
 
-      <ul>
-        <li>✔ Participar de campeonatos</li>
-        <li>✔ Acesso ao ranking</li>
-        <li>✔ Criar perfil</li>
-        <li>✖ Reserva prioritária</li>
-        <li>✖ Estatísticas avançadas</li>
+    <!-- PLANO BASIC -->
+    <div class="plano-card basico">
+      <h3>Basic</h3>
+      <p class="preco">R$ 0,00<span>/mês</span></p>
+
+      <ul class="lista">
+        <li>✔ Cadastro simples de quadra</li>
+        <li>✔ Uploads limitados das imagem de quadra</li>
+        <li>✔ Menor visualização dentro do App</li>
+        <li>✔ Quadra não ofertada para torneios, apenas jogos casuais</li>
+        <li>✔ Pouca disponibilidade de horários</li>
+        <li>✔ Limite de quadras divulgadas e ofertadas</li>
       </ul>
 
-      <button mat-button class="btn-plano">Começar</button>
+      <button mat-button class="btn-plano basic">Começar</button>
     </div>
 
     <!-- PLANO PLATINUM -->
-    <div class="plano-card destaque">
+    <!-- <div class="plano-card platium">
       <h3>Platinum</h3>
       <p class="preco">R$ 39<span>/mês</span></p>
 
@@ -91,22 +93,23 @@
       </ul>
 
       <button mat-button class="btn-plano">Assinar</button>
-    </div>
+    </div> -->
 
     <!-- PLANO GOLD -->
     <div class="plano-card gold">
       <h3>Gold</h3>
-      <p class="preco">R$ 79<span>/mês</span></p>
+      <p class="preco">R$ 199,90<span>/mês</span></p>
 
-      <ul>
-        <li>✔ Tudo do Platinum</li>
-        <li>✔ Suporte VIP</li>
-        <li>✔ Destaque no ranking</li>
-        <li>✔ Acesso antecipado a torneios</li>
-        <li>✔ Benefícios exclusivos</li>
+      <ul class="lista">
+        <li>✔ Cadastro de quadras com informações detalhadas</li>
+        <li>✔ Uploas ilimitados para divulgação das quadras</li>
+        <li>✔ Tornar uma quadra referência dentro do app, com maior visibilidade</li>
+        <li>✔ Quadras disponiveis para torneios</li>
+        <li>✔ Disponibilidade de todos os seus horários para utilização de quadras</li>
+        <li>✔ Espaço para divulgação de comercialização de serviços no espaço</li>
       </ul>
 
-      <button mat-button class="btn-plano">Ser Gold</button>
+      <button mat-button class="btn-plano gold">Ser Gold</button>
     </div>
   </div>
 </section>
@@ -135,6 +138,7 @@
           <h4>Missão</h4>
           <p>Conectar pessoas através do esporte e da inovação.</p>
         </div>
+
 
         <div class="bloco">
           <h4>Visão</h4>
