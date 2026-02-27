@@ -1,33 +1,32 @@
+:root {
+  --bg-color: #ffffff;
+  --text-color: #1e293b;
+  --primary-color: #e97c23;
+}
+
 body {
-  background-image: url('/fundo/fundo2.png');
+  background-image: url('/fundo/light.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  color: var(--text-color);
+  transition: 0.3s ease;
 }
 
-html {
-  scroll-behavior: smooth;
+.dark-mode {
+  --bg-color: #000000f0;
+  --text-color: #bfbfbf;
+  --primary-color: #e97c23;
+
 }
 
-.card-hero {
-  width: 100%;
-  max-width: 80%;
-  margin: 60px auto;
-
-  border-radius: 25px;
-  overflow: hidden;
-
-  background-image:
-    linear-gradient(90deg, #0ea4e962, #b863146b),
-    url('/fundo/fundo.jpg');
-
+body.dark-mode {
+  background-image: url('/fundo/dark.png');
   background-size: cover;
   background-position: center;
-
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
-
-  padding: 80px 40px;
-  color: white;
-  text-align: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: var(--text-color);
+  transition: 0.3s ease;
 }
